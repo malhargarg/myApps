@@ -1,0 +1,5 @@
+linting:
+  script:
+    - golangci-lint run ./your-go-application-directory
+
+## Add a script to your CI pipeline configuration to run GolangCI-Lint against your Go application files

@@ -1,0 +1,7 @@
+linting:
+  script:
+    - ./vendor/bin/phpcs --standard=WordPress your-wordpress-component-directory
+
+
+##Add this script to your CI pipeline configuration 
+##(e.g., .gitlab-ci.yml, .github/workflows/main.yml) to run PHPCS against your WordPress component files

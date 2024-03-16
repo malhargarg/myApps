@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  go:
+    build: ./path/to/go
+    ports:
+      - "8080:8080"
+
+  nextjs:
+    build: ./path/to/nextjs
+    ports:
+      - "3000:3000"
+
+  wordpress:
+    build: ./path/to/wordpress
+    ports:
+      - "80:80"

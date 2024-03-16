@@ -1,0 +1,4 @@
+linting:
+  script:
+    - npx eslint ./your-nextjs-application-directory --ext .js,.jsx,.ts,.tsx
+    - npx prettier --check .

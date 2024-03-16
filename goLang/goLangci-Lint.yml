@@ -1,0 +1,13 @@
+linters-settings:
+  enable:
+    - golint
+    - govet
+    - staticcheck
+  golint:
+    min-confidence: 0
+  govet:
+    enable:
+      - shadow
+
+
+##Create a configuration file (e.g., .golangci.yml) to specify the linting rules and settings.
